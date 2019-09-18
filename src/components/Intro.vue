@@ -4,7 +4,7 @@
       <h3>Miru</h3>
       <span class="monitor"><span class="monitorText">Update ^</span></span>
     </div>
-    <h1>Miru: CrytoTracker</h1>
+    <h1>Miru: CryptoTracker</h1>
     <h2>Bitcoin, Ethereum, Litecoin</h2>
   </header>
 </template>
