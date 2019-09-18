@@ -6,6 +6,8 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0695a486-f447-4474-b09b-c33ac43ec4d4/deploy-status)](https://app.netlify.com/sites/miru/deploys)
 
+[Link to Project](https://miru.netlify.com)
+
 [View tutorial](https://pusher.com/tutorials/cryptocurrency-tracker-vue)
 
 ## Build Setup
