@@ -64,7 +64,7 @@ export default {
   width: 30%;
 } */
 body {
-  background-color: black !important;
+  
 }
 div p {
   font-size: 2rem;
