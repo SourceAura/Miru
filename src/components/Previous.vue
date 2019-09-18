@@ -3,7 +3,7 @@
       <h3>
       Recent: 
     </h3>
-    <vs-tabs alignment="center">
+    <vs-tabs :color="colorG" alignment="center">
       <vs-tab label="1 Day Ago">
         <div id="first">
       <h2>{{previousCurrency.yesterday.DATE}}</h2>
@@ -89,13 +89,16 @@ export default {
     previousCurrency: { type: Object }
   },
   data () {
-    return {}
+    return {
+      colorG: '#628'
+    }
   }
 }
 </script>
 
 <style scoped>
 #first, #second, #third, #fourth, #fifth {
+  color: goldenrod;
   border: 1px solid #628;
   border-radius: 7px;
   padding: 2em 0em;

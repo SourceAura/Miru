@@ -133,9 +133,11 @@ export default {
   padding: 0px;
   font-family: 'Dosis', cursive !important;
 }
-body {
+body, html {
   /* height: 100vh;
   width: 100vw; */
+  background-color: black !important;
+  color: goldenrod !important;
 }
 .row {
   display: flex;
@@ -167,7 +169,7 @@ a:visited {
   margin: 0 auto;
   padding: 1.5em;
   text-align: center;
-  color: rgb(0, 193, 131);
+  color: #628);
 }
 #current {
   padding: 2em 0em;

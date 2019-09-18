@@ -15,10 +15,10 @@
     </div> -->
 
 
-    <h3>
+    <h3 >
       Current:
     </h3>
-    <vs-tabs alignment="center">
+    <vs-tabs :color="colorG" alignment="center">
       <vs-tab label="BTC">
         <div>
             <p>${{currentCurrency.BTC}}</p>
@@ -48,7 +48,9 @@ export default {
     currentCurrency: { type: Object }
   },
   data () {
-    return {}
+    return {
+      colorG: '#628'
+    }
   }
 }
 </script>
@@ -61,8 +63,12 @@ export default {
   display: inline-block;
   width: 30%;
 } */
+body {
+  background-color: black !important;
+}
 div p {
   font-size: 2rem;
+  color: goldenrod;
 }
 /* h2 {
    font-size: 1.5em;
